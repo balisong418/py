@@ -1,0 +1,6 @@
+def pifagor(a,b,c):
+    list=[a,b,c]
+    list.sort()
+    return list.pop()**2 == (list.pop()**2 + list.pop()**2)
+if __name__=="__main__":
+    print pifagor(input(),input(),input())
