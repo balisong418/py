@@ -1,10 +1,10 @@
 def py6(a):
     if 12>a>0:
-        if 3>=a>=5:
+        if 5>=a>=3:
             return 'spring'
-        elif 6>=a>=8:
+        elif 8>=a>=6:
             return 'summer'
-        elif 9>=a>=11:
+        elif 11>=a>=9:
             return 'fall'
         else:
             return 'winter is comming'
